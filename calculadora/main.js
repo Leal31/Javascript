@@ -37,7 +37,7 @@ function escribirNumero(numero) {
 }
 // Funciones de teclas las cuales funcionaran en base al numero que representen
 // La idea es que al presionar los botones se escriban en la variable "display"
-uno.onclick = function(e) {
+uno.onclick = (e) => {
   escribirNumero(1);
 }
 
